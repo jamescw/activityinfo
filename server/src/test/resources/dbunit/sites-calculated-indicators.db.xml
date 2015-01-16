@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <dataset>
-  <activity ActivityId="1" AllowEdit="true" category="NFI Cluster" Name="NFI" ReportingFrequency="0" SortOrder="1" DatabaseId="1" LocationTypeId="1" published="0" cacheKey="0"/>
-  <activity ActivityId="2" AllowEdit="true" Name="Distribution de Kits Scolaire" ReportingFrequency="0" SortOrder="1" DatabaseId="1" LocationTypeId="1" published="0" cacheKey="0"/>
-  <activity ActivityId="3" AllowEdit="true" Name="Appui aux centres de sant&#233;" ReportingFrequency="1" SortOrder="1" DatabaseId="2" LocationTypeId="1" published="0" cacheKey="0"/>
-  <activity ActivityId="4" AllowEdit="true" Name="Reunification of child soliders" ReportingFrequency="1" SortOrder="1" DatabaseId="2" LocationTypeId="3" published="0" cacheKey="0"/>
-  <activity ActivityId="5" AllowEdit="true" Name="Kivu water distribution" ReportingFrequency="1" SortOrder="1" DatabaseId="2" LocationTypeId="3" published="0" cacheKey="0"/>
-  <activity ActivityId="41" AllowEdit="true" Name="Public Activity" ReportingFrequency="1" SortOrder="1" DatabaseId="4" LocationTypeId="3" published="2" cacheKey="0"/>
+  <activity ActivityId="1" AllowEdit="true" category="NFI Cluster" Name="NFI" ReportingFrequency="0" SortOrder="1" DatabaseId="1" LocationTypeId="1" published="0" />
+  <activity ActivityId="2" AllowEdit="true" Name="Distribution de Kits Scolaire" ReportingFrequency="0" SortOrder="1" DatabaseId="1" LocationTypeId="1" published="0" />
+  <activity ActivityId="3" AllowEdit="true" Name="Appui aux centres de sant&#233;" ReportingFrequency="1" SortOrder="1" DatabaseId="2" LocationTypeId="1" published="0" />
+  <activity ActivityId="4" AllowEdit="true" Name="Reunification of child soliders" ReportingFrequency="1" SortOrder="1" DatabaseId="2" LocationTypeId="3" published="0" />
+  <activity ActivityId="5" AllowEdit="true" Name="Kivu water distribution" ReportingFrequency="1" SortOrder="1" DatabaseId="2" LocationTypeId="3" published="0" />
+  <activity ActivityId="41" AllowEdit="true" Name="Public Activity" ReportingFrequency="1" SortOrder="1" DatabaseId="4" LocationTypeId="3" published="2" />
   <adminentity AdminEntityId="1" x1="0.0" x2="0.0" y1="0.0" y2="0.0" Code="10" Name="Kinshasa" AdminLevelId="1" deleted="false"/>
   <adminentity AdminEntityId="2" x1="0.0" x2="0.0" y1="0.0" y2="0.0" Code="20" Name="Sud Kivu" AdminLevelId="1" deleted="false"/>
   <adminentity AdminEntityId="3" x1="0.0" x2="0.0" y1="0.0" y2="0.0" Code="30" Name="Nord Kivu" AdminLevelId="1" deleted="false"/>
