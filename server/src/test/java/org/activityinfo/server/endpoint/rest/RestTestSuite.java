@@ -1,10 +1,12 @@
 package org.activityinfo.server.endpoint.rest;
 
 import com.google.common.collect.Lists;
+import com.google.common.io.Resources;
 import org.codehaus.jackson.map.ObjectMapper;
 
 import java.io.File;
 import java.io.IOException;
+import java.net.URL;
 import java.util.List;
 
 public class RestTestSuite {
@@ -22,6 +24,7 @@ public class RestTestSuite {
     }
 
     private static File testCaseFile() {
+        
         File sourceDir = new File("server/src/test/resources/" +
                 RestApiRegressionTest.class.getPackage().getName().replace('.', '/'));
 
@@ -34,8 +37,8 @@ public class RestTestSuite {
 
 
     public static RestTestSuite loadCases() throws IOException {
-        File file = testCaseFile();
         ObjectMapper mapper = new ObjectMapper();
-        return mapper.readValue(file, RestTestSuite.class);
+        URL testCaseResource = Resources.getResource(RestTestSuite.class, "regression-tests-2.8.155.json");
+        return mapper.readValue(testCaseResource, RestTestSuite.class);
     }
 }
