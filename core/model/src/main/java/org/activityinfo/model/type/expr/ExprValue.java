@@ -37,6 +37,6 @@ public class ExprValue implements FieldValue, IsRecord {
     }
 
     public static ExprValue fromRecord(Record record) {
-        return new ExprValue(record.getString("value"));
+        return new ExprValue(record.isString("value"));
     }
 }
