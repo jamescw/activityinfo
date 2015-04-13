@@ -94,10 +94,10 @@ public class LocationSearchPresenter extends BaseObservable {
         int number = 0;
         for (LocationDTO location : locations) {
             if (location.hasCoordinates()) {
-                location.setMarker(String.valueOf((char) ('A' + number)));
                 number++;
+                location.setMarker(number.toString());
             }
-            if (number >= 26) {
+            if (number >= 100) {
                 break;
             }
         }
